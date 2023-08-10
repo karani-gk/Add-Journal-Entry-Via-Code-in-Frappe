@@ -9,7 +9,7 @@ jv.posting_date = nowdate()
 jv.company = 'Upeosoft Limited '
 jv.remark = 'This is a rest remark for the GitHub example'
 
-#Entry for Tenant
+#Entry to the Credit Side
 jv.append('accounts', {
     'account': "First Account",
     'party_type' : 'Customer',
@@ -21,7 +21,7 @@ jv.append('accounts', {
 })
 
 
-#Entry for Landlord
+#Entry to the Debit Side
 jv.append('accounts', {
     'account': "Second Account",
     'debit' : float(self.amount_paid),
