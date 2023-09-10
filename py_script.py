@@ -24,10 +24,10 @@ jv.append('accounts', {
 #Entry to the Debit Side
 jv.append('accounts', {
     'account': "Second Account",
-    'debit' : float(self.amount_paid),
+    'debit' : float(amount_paid),
     'credit' : float(0),
     'credit_in_account_currency': float(0),
-    'debit_in_account_currency': float(self.amount_paid)
+    'debit_in_account_currency': float(amount_paid)
 })
 
 
